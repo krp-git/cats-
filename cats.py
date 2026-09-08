@@ -13,7 +13,7 @@ class Cat:
         self.hunger -= food
         if self.hunger < 0:
             self.hunger = 0
-        print(f"{self.name} поїв(-ла). Голод: {self.hunger}")
+        print(f"{self.name} поїв. Голод: {self.hunger}")
 
     def __str__(self):
         return f"Кіт {self.name}: вік {self.age}, голод {self.hunger}"
